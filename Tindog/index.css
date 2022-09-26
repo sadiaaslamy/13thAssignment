@@ -1,0 +1,91 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#card .dog-img {
+    width: 100%;
+}
+
+#card {
+    position: relative;
+    width: 100%;
+   
+}
+
+.dog-info {
+    position: absolute;
+    color: white;
+    bottom: 10px;
+    left: 10px;
+}
+.main{
+    width: 550px;
+    padding: 1em;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 550px;
+    height: 81px;
+    left: 0px;
+    top: 0px;
+    
+    
+    background-color: #FFFFFF;
+}
+.profile{
+    
+    width: 32.33px;
+    height: 34px;
+    left: 18px;
+    top: 24px;
+}
+.logo{
+    width: 84px;
+    height: 42px;
+    left: 233px;
+    top: 20px;
+}
+.chat{
+    Width: 34px;
+    height: 34px;
+}
+.dog-img{
+    border-radius: 15px;
+}
+.dog-info{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    font-size: 32px;
+     padding: 12px;
+     color: #F8F8F8;
+}
+.dog-bio{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    
+    color: #B7B7B7;
+}
+.actions{
+    padding: 24px;
+     text-align: center;
+}
+.reject{
+    margin-right: 20px;
+}
+#reject-button, #accept-button{
+     width: 91.87px;
+     height: 91.87px;
+     border-radius: 50%;
+     border: none;
+    
+     box-shadow: 0px 10px 20px #E9E9EA;
+     
+}
