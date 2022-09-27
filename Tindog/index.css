@@ -21,7 +21,10 @@ body {
 }
 .main{
     width: 550px;
-    padding: 1em;
+    margin: 0 auto;
+    border: 6px solid black;
+    border-radius: 20px;
+    padding: 8px;
 
 }
 .header{
