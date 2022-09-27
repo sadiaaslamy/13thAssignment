@@ -85,10 +85,19 @@ body {
      height: 91.87px;
      border-radius: 50%;
      border: none;
-    
      box-shadow: 0px 10px 20px #E9E9EA;
      
 }
+
+#reject-button:hover,
+#reject-button:focus{
+    background-color: #FFE7EF;
+}
+#accept-button:hover,
+#accept-button:focus{
+    background-color: #DBFFF4;
+}
+
 .end-message{  
     height: 100vh;
     background: rgb(51,43,55);
