@@ -82,10 +82,10 @@ body {
 #like, #dislike{
     display: none;
     position: absolute;
-    width: 172.32px;
-    height: 89.97px;
-    left: 46.94px;
-    top: 118.12px;
+    width: 233.91px;
+    height: 116.26px;
+    left: 14px;
+    top: 121.96px;
     transform: rotate(-30deg);
 }
 .actions{
