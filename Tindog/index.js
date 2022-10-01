@@ -24,9 +24,11 @@ function getNewDog() {
 
 function yes() {
     currentDog.setMatchStatus(true)
+    document.getElementById('like').style.display = "block";
      setTimeout(()=> getNewDog(), 5000)
 }
 function no() {
     currentDog.setMatchStatus(true)
+    document.getElementById('dislike').style.display = "block";
      setTimeout(()=> getNewDog(), 5000)  
 }
