@@ -3,7 +3,7 @@ import dogsData from './data.js'
 let currentDogIndex = 0
 let currentDog = new Dog(dogsData[currentDogIndex])
 document.getElementById("accept-button").addEventListener('click', yes)
-document.getElementById("reject-button").addEventListener('click', yes)
+document.getElementById("reject-button").addEventListener('click', no)
 
 render()
 
@@ -25,4 +25,8 @@ function getNewDog() {
 function yes() {
     currentDog.setMatchStatus(true)
     getNewDog()
+}
+function no() {
+    currentDog.setMatchStatus(true)
+    getNewDog()   
 }
