@@ -11,7 +11,7 @@ class Dog {
     }
     
     getDogHtml() {
-        const { name, avatar, age, bio } = this
+        const { name, avatar, age, bio, iked, disliked} = this
         return `
             <div class="feature-suggestion">
                 <div class="dog-info">
@@ -21,6 +21,8 @@ class Dog {
                     </div>
                 </div>
                 <img class="dog-img" src="${avatar}">
+                <img id="like" src="${liked}">
+                <img id="dislike" src="${disliked}">
             </div>`
     }
 }
