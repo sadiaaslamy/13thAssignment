@@ -24,9 +24,9 @@ function getNewDog() {
 
 function yes() {
     currentDog.setMatchStatus(true)
-    getNewDog()
+     setTimeout(()=> getNewDog(), 5000)
 }
 function no() {
     currentDog.setMatchStatus(true)
-    getNewDog()   
+     setTimeout(()=> getNewDog(), 5000)  
 }
