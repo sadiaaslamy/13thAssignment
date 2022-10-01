@@ -76,6 +76,18 @@ body {
     
     color: #B7B7B7;
 }
+.feature-suggestion{
+    position: relative;
+}
+#like, #dislike{
+    display: none;
+    position: absolute;
+    width: 172.32px;
+    height: 89.97px;
+    left: 46.94px;
+    top: 118.12px;
+    transform: rotate(-30deg);
+}
 .actions{
     padding: 24px;
      text-align: center;
